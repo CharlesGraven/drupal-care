@@ -1,0 +1,25 @@
+uuid: 4d7da422-68db-4ad4-964a-3d34cdd18e4b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dce87293-c1d2-4c9c-a0d3-190e18f1c494'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: extend
+theme: barrio_custom
+region: content
+weight: -4
+provider: null
+plugin: 'block_content:dce87293-c1d2-4c9c-a0d3-190e18f1c494'
+settings:
+  id: 'block_content:dce87293-c1d2-4c9c-a0d3-190e18f1c494'
+  label: Extend
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

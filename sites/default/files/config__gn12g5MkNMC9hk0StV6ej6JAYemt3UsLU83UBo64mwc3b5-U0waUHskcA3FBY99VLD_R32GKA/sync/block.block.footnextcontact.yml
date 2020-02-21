@@ -1,0 +1,25 @@
+uuid: 755808db-6ef0-4091-abec-0c343f168ec7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5b45722e-0ce7-47bd-93e9-d55b78b733c6'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: footnextcontact
+theme: barrio_custom
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:5b45722e-0ce7-47bd-93e9-d55b78b733c6'
+settings:
+  id: 'block_content:5b45722e-0ce7-47bd-93e9-d55b78b733c6'
+  label: foot-next-contact
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

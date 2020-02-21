@@ -1,0 +1,25 @@
+uuid: a5924037-bb1c-4d09-8f69-337458a36e4e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:96f28dae-ac22-45ba-b6f8-5234a8451ba0'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: schulthessjumbotron
+theme: barrio_custom
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:96f28dae-ac22-45ba-b6f8-5234a8451ba0'
+settings:
+  id: 'block_content:96f28dae-ac22-45ba-b6f8-5234a8451ba0'
+  label: schulthess-jumbotron
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

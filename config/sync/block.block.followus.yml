@@ -1,0 +1,25 @@
+uuid: 4e1f3482-de4f-4eed-a9c8-6f8c76b3a133
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0bec82ea-9a12-4734-bf50-249024466346'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: followus
+theme: barrio_custom
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:0bec82ea-9a12-4734-bf50-249024466346'
+settings:
+  id: 'block_content:0bec82ea-9a12-4734-bf50-249024466346'
+  label: Followus
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

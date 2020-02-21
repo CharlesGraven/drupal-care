@@ -1,0 +1,25 @@
+uuid: 2158cc80-0d5a-4d49-a20b-0c6b261f1b1a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:dbacd55a-da2c-4418-a733-386a5df2c250'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: recommendus
+theme: barrio_custom
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:dbacd55a-da2c-4418-a733-386a5df2c250'
+settings:
+  id: 'block_content:dbacd55a-da2c-4418-a733-386a5df2c250'
+  label: 'recommend us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,18 @@
+palette:
+  top: '#d0d0d0'
+  bottom: '#c2c4c5'
+  bg: '#ffffff'
+  sidebar: '#ffffff'
+  sidebarborders: '#ffffff'
+  footer: '#0f0000'
+  button: '#ffffff'
+  buttonhover: '#ffffff'
+  titleslogan: '#0f0000'
+  text: '#0f0000'
+  link: '#0f0000'
+logo: 'public://color/barrio_custom-e1a3e7dd/logo.svg'
+stylesheets:
+  - 'public://color/barrio_custom-e1a3e7dd/colors.css'
+files:
+  - 'public://color/barrio_custom-e1a3e7dd/logo.svg'
+  - 'public://color/barrio_custom-e1a3e7dd/colors.css'

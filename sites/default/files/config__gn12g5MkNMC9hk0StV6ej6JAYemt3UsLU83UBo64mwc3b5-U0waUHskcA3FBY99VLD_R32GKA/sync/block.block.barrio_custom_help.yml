@@ -1,0 +1,22 @@
+uuid: dc224606-6a90-4895-9138-b3b3a3fd098b
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - barrio_custom
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: barrio_custom_help
+theme: barrio_custom
+region: footer_fifth
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

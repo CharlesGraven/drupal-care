@@ -1,0 +1,25 @@
+uuid: 69e11535-a6d3-4662-861d-2eb15870626f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:323c5541-2641-43c4-814b-0a35bcfbe9a6'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: patientsdoctors
+theme: barrio_custom
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:323c5541-2641-43c4-814b-0a35bcfbe9a6'
+settings:
+  id: 'block_content:323c5541-2641-43c4-814b-0a35bcfbe9a6'
+  label: Patients/Doctors
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

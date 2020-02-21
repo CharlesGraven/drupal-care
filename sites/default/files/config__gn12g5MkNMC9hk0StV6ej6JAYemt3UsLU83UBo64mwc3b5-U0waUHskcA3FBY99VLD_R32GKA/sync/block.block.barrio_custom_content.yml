@@ -1,0 +1,22 @@
+uuid: ff232e26-256b-4cab-a6db-d6ddb83eae10
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - barrio_custom
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: barrio_custom_content
+theme: barrio_custom
+region: footer_fifth
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

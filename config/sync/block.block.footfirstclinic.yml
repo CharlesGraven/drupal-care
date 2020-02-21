@@ -1,0 +1,25 @@
+uuid: 1887c715-195f-4bd1-87f9-ac6986ee21d9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ce2e895a-73fd-407a-81e9-ca8baabc33be'
+  module:
+    - block_content
+  theme:
+    - barrio_custom
+id: footfirstclinic
+theme: barrio_custom
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:ce2e895a-73fd-407a-81e9-ca8baabc33be'
+settings:
+  id: 'block_content:ce2e895a-73fd-407a-81e9-ca8baabc33be'
+  label: foot-first-clinic
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
