@@ -1,0 +1,7 @@
+services:
+
+    test_uuid:
+        class: Drupal\test\TestService
+
+
+  

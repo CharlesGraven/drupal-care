@@ -3,4 +3,22 @@
  * Subtheme specific CSS.
  */
 
+ .view-id-doctor_floating_profile .view-content{
+   display:flex;
+   justify-content : center;
+ }
+    
+ .view-id-doctor_floating_profile .view-content .views-row{
+   display:flex;
+   flex-direction:column;
+   justify-content : center;
+   padding: 40px;
+ }
+
+ .view-id-doctor_floating_profile .view-content .views-row img:hover {
+   width: 240px;
+   height: 240px;
+}
+ 
+
 

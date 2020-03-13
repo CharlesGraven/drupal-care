@@ -6,7 +6,7 @@ description: 'Basic structure for a Bootstrap Barrio SubTheme.'
 base theme: bootstrap_barrio
 
 libraries:
-  - barrio_custom/bootstrap_cdn
+  - barrio_custom/bootstrap
   - barrio_custom/global-styling
 
 regions:
@@ -32,6 +32,7 @@ regions:
   footer_third: 'Footer third'
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
+  my_custom_region: 'My Custom Region' 
 
 # Information added by Drupal.org packaging script on 2019-02-28
 version: '8.x-4.22'
