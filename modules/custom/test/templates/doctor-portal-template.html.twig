@@ -1,0 +1,19 @@
+<h1>Members</h1>
+<ul>
+    {% for patient in patients %}
+        <li>{{ patient }}</li>
+    {% endfor %}
+</ul>
+
+{{ form.form_build_id }}
+{{ form.form_token }}
+{{ form.form_id }}
+
+<div class="row">
+  <div class="col-md-6">
+    {{ form.name }}
+  </div>
+  <div class="col-md-6">
+    {{ form.address }}
+  </div>
+</div>

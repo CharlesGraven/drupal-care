@@ -1,0 +1,44 @@
+block.testing:
+  path: '/testing/{test}'
+  defaults:
+    _controller: 'Drupal\test\Controller\MyController::content'
+    _title: 'title'
+  requirements:
+    _permission: 'administer blocks'
+    test: '\s+'
+  options:
+    _admin_route: FALSE
+
+block.patient:
+  path: '/test-form'
+  defaults:
+    _controller: 'Drupal\test\Controller\PatientController::pageAction'
+    _title: 'form'
+  requirements:
+    _permission: 'administer blocks'
+    test: '\s+'
+  options:
+    _admin_route: FALSE
+
+patient.form:
+  path: '/patientform'
+  defaults:
+    _form: 'Drupal\test\Form\PatientForm'
+    _title: 'title'
+  requirements:
+    _permission: 'administer blocks'
+  options:
+    _admin_route: FALSE
+
+doctor.form:
+  path: '/doctorportal'
+  defaults:
+    _form: 'Drupal\test\Form\DoctorForm'
+    _title: 'title'
+  requirements:
+    _permission: 'administer blocks'
+  options:
+    _admin_route: FALSE
+
+
+
