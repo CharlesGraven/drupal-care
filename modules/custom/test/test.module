@@ -25,6 +25,18 @@ function test_theme($existing, $type, $theme, $path) {
           'variable1' => 'Yet another default text.',
       ],
     ],
+
+    'doctor' => [
+        'template' => 'html--test--redirect--role-doctor',
+        'path' => $path . '/templates',
+      'variables' => [
+          'doctors' => 'doctor didnt render',
+      ],
+    ],
+    
+    'confirmation_form' => [
+      'render element' => 'form',
+    ],
   ];
 
 }

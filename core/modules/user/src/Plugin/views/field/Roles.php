@@ -75,8 +75,8 @@ class Roles extends PrerenderList {
       $roles = user_roles();
       $result = $this->database->query('SELECT u.entity_id as uid, u.roles_target_id as rid FROM {user__roles} u WHERE u.entity_id IN ( :uids[] ) AND u.roles_target_id IN ( :rids[] )', [':uids[]' => $uids, ':rids[]' => array_keys($roles)]);
       foreach ($result as $role) {
-        $this->items[$role->uid][$role->rid]['role'] = $roles[$role->rid]->label();
-        $this->items[$role->uid][$role->rid]['rid'] = $role->rid;
+        //$this->items[$role->uid][$role->rid]['role'] = $roles[$role->rid]->label();
+        //$this->items[$role->uid][$role->rid]['rid'] = $role->rid;
       }
       // Sort the roles for each user by role weight.
       $ordered_roles = array_flip(array_keys($roles));

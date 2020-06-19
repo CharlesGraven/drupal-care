@@ -1,7 +1,11 @@
 services:
-
     test_uuid:
         class: Drupal\test\TestService
+    mymodule.subscriber:
+        class: Drupal\test\EventSubscriber\MyEventSubscriber
+        tags:
+            - {name: event_subscriber}
+    
 
 
   

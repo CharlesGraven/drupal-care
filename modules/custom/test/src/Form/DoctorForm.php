@@ -9,7 +9,13 @@ use \Drupal\Core\Entity\EntityInterface;
 use \Drupal\node\Entity\Node;
 use Drupal\Core\Entity;
 
-
+/*
+* @Deprecated (for now)
+* Doctors don't need a portal to login from now that 
+* they're users. In fact, this form can be converted later to something else for the website
+* Ideas: Doctor refferal sheet?
+*
+*/
 class DoctorForm extends FormBase{
 
   protected $services;

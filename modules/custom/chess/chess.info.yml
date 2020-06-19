@@ -1,0 +1,8 @@
+name: 'chess'
+type: module
+description: 'module description'
+core: 8.x
+
+libraries:
+  - 'chess/global-styling'
+  - 'chess/global-scripts'
