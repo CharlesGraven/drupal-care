@@ -1,0 +1,10 @@
+block.board:
+  path: '/board'
+  defaults:
+    _controller: 'Drupal\chess\Controller\ExampleBoard::content'
+    _title: 'title'
+  requirements:
+    _permission: 'administer blocks'
+    test: '\s+'
+  options:
+    _admin_route: FALSE

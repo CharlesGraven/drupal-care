@@ -5,16 +5,19 @@ use Drupal\Core\Controller\ControllerBase;
 class PatientController extends ControllerBase{
 
     //pass output to my template
-    public function pageAction(){
+    public function pageAction($doctors){
         
-        $myform = \Drupal::formBuilder()->getForm('Drupal\test\Form\DoctorForm');
+        //$myform = \Drupal::formBuilder()->getForm('Drupal\test\Form\PatientForm');
         // If you want modify the form:
         //$myform['field']['#value'] = 'From my controller';
 
         $build = [
-            '#theme' => 'form-template',
-            '#form' => $myform,
+            '#theme' => 'doctor',
         ];
+
+        if(!empty($doctors)){
+            $build['#doctors'] = $doctors;
+        }
 
         return $build;
     }

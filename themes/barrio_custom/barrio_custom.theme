@@ -33,3 +33,23 @@ function barrio_custom_form_system_theme_settings_alter(&$form, FormStateInterfa
       'bg-transparent' => t('Transparent'),
   );
 }
+
+function barrio_custom_preprocess_page__user(&$vars){
+  $vars['foo'] = 'foo';
+}
+
+function barrio_custom_preprocess_node(&$vars){
+  //kint($vars['content']);
+  $type = $vars['node']->getType();
+  if(($type=='appointment')){
+
+  }else if($type=='appointment'){
+
+  }else if($type=='appointment'){
+
+  }
+}
+
+function barrio_custom_preprocess_user(&$vars){
+  $vars['foo'] = 'foo';
+}

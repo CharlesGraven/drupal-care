@@ -10,15 +10,13 @@ block.testing:
     _admin_route: FALSE
 
 block.patient:
-  path: '/test-form'
+  path: '/test-redirect/{doctors}'
   defaults:
     _controller: 'Drupal\test\Controller\PatientController::pageAction'
-    _title: 'form'
+    _title: 'redirect'
   requirements:
-    _permission: 'administer blocks'
+    _role: 'admin+patient+doctor'
     test: '\s+'
-  options:
-    _admin_route: FALSE
 
 patient.form:
   path: '/patientform'
@@ -26,9 +24,15 @@ patient.form:
     _form: 'Drupal\test\Form\PatientForm'
     _title: 'title'
   requirements:
-    _permission: 'administer blocks'
-  options:
-    _admin_route: FALSE
+    _role: 'admin+patient+doctor'
+
+appointment.form:
+  path: '/appointment'
+  defaults:
+    _form: 'Drupal\test\Form\AppointmentForm'
+    _title: 'title'
+  requirements:
+    _role: 'admin+patient+doctor'
 
 doctor.form:
   path: '/doctorportal'
@@ -39,6 +43,18 @@ doctor.form:
     _permission: 'administer blocks'
   options:
     _admin_route: FALSE
+
+confirmation_form.confirmation_form:
+  path: '/user/{user}/register'
+  defaults: 
+    _form: '\Drupal\test\Form\ConfirmationForm'
+    _title: 'Registration'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      user:
+        type: entity:user
 
 
 

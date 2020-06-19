@@ -1,0 +1,9 @@
+global-scripts:
+  dependencies: ~
+  js:
+    JS/chessboardjs-1.0.0/js/chessboard-1.0.0.js: {}
+  css:
+    layout:
+      JS/chessboardjs-1.0.0/css/chessboard-1.0.0.css: {}
+    theme:
+      JS/chessboardjs-1.0.0/css/chessboard-1.0.0.css: {}
